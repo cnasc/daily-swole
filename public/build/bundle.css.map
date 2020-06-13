@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../App.svelte",
+    "../../Sidebar.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n import Sidebar from './Sidebar.svelte';\n\texport let name;\n</script>\n\n<main>\n\t<Sidebar />\n\t<div>\n\t\t<h1>Daily Swole</h1>\n\t</div>\n</main>\n\n<style>\n main {\n\t display: grid;\n\t grid-template-columns: 5em 1fr;\n }\n\n div {\n\t display: flex;\n\t flex-direction: column;\n\t align-items: center;\n }\n\n h1 {\n\t text-transform: uppercase;\n }\n</style>\n",
+    "<div></div>\n\n<style>\n div {\n     background-color: #bbbbbb;\n     width: 100%;\n     height: 100vh;\n }\n</style>\n"
+  ],
+  "names": [],
+  "mappings": "AAaC,IAAI,cAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,GAAG,CAAC,GAAG,AAC/B,CAAC,AAED,GAAG,cAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,AACpB,CAAC,AAED,EAAE,cAAC,CAAC,AACH,cAAc,CAAE,SAAS,AAC1B,CAAC;ACvBD,GAAG,cAAC,CAAC,AACD,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,AACjB,CAAC"
+}
